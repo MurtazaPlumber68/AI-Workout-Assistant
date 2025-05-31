@@ -140,3 +140,33 @@ Follow these steps to get a local copy of the project up and running on your mac
    ```bash
    git clone https://github.com/MurtazaPlumber68/AI-Workout-Assistant.git
    cd AI-Workout-Assistant
+<<<<<<< HEAD
+   ## Running Locally
+
+1. **Using a Simple HTTP Server (no bundler)**  
+   If your project is purely static (HTML/CSS/JS) and you don’t need a build step, you can use a lightweight HTTP server:
+
+   - **Option A: `http-server` (npm)**  
+     ```bash
+     npm install -g http-server
+     http-server .
+     ```  
+     Then open `http://localhost:8080` (default port) in your browser.
+
+   - **Option B: Python’s SimpleHTTPServer**  
+     ```bash
+     # Python 3.x
+     python -m http.server 8000
+     ```  
+     Visit `http://localhost:8000`.
+
+2. **Using a Bundler / Dev Server**  
+   If there is a development script defined in `package.json`, run:  
+   ```bash
+   npm run dev
+   
+
+
+   
+=======
+>>>>>>> cf015ef (Flatten directory: move project files to root)
